@@ -51,9 +51,22 @@
       <form action="https://formspree.io/f/mvgrepnn" method="POST">
         <input type="text" name="name" placeholder="Your name" required>
         <input type="email" name="email" placeholder="Your email" required>
-        <textarea name="message" placeholder="Tell us what you need..." required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+
+	<input type="text" name="business" placeholder="Business name or type (e.g. salon, jewelry, coaching)">
+
+        <select name="service" required>
+    	 <option value="" disabled selected>What are you looking for?</option>
+    	 <option value="Inventory Tracker">Inventory Tracker</option>
+   	 <option value="Booking App">Booking App</option>
+    	 <option value="Website + App Combo">Website + App Combo</option>
+    	 <option value="Other">Other (explain below)</option>
+  	</select>
+
+  	<textarea name="message" placeholder="Tell me what you need! Include features, branding and colors, app integrations (Stripe, Google Sheets, barcode scanner etc.) timeline, vibe, whatever you're wanting." rows="15" required></textarea>
+
+  	<button type="submit">Send Message</button>
+	</form>
+
     </section>
   </main>
 
