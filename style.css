@@ -41,12 +41,14 @@ h2 {
 section {
   margin-bottom: 2em;
 }
-form input, form textarea {
+form input, form textarea, form select {
   width: 100%;
   padding: 0.75em;
   margin-bottom: 1em;
   border: none;
   border-radius: 5px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 1em;
 }
 form button {
   padding: 0.75em 2em;
@@ -56,6 +58,8 @@ form button {
   font-weight: bold;
   cursor: pointer;
   border-radius: 5px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 1em;
 }
 footer {
   text-align: center;
