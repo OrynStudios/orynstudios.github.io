@@ -97,3 +97,13 @@ footer {
   background-color: #1c1b22;
   color: #666;
 }
+#faq ul li {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+#faq ul li strong {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
