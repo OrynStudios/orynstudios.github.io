@@ -7,29 +7,59 @@ body {
   padding: 0;
 }
 header {
-  background-color: #1c1b22;
+  background-color: #663a86;
   text-align: center;
-  padding: 3em 1em;
+  padding: 2rem 1rem;
 }
+.logo {
+  display: block;
+  margin: 0 auto 1rem auto;
+  max-width: 160px;
+  height: auto;
+}
+
+/* Responsive typography */
 header h1 {
   font-size: 2.5em;
-  margin: 0;
-  color: #c8a2ff;
+  margin-bottom: 0.5rem;
+  color: #663a86;
 }
 header p {
-  font-size: 1.2em;
-  color: #aaa;
+  font-size: 1.1rem;
+  margin-bottom; 1.5rem;
+  color: #663a86;
 }
+
+/* CTA Button */
 .cta {
   display: inline-block;
-  margin-top: 1em;
-  padding: 0.5em 1.5em;
-  background-color: #c8a2ff;
+  padding: 0.75rem 1.5rem;
+  background-color: #aaa;
   color: #0e0d13;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 8px;
 }
+
+/* Responsive Tweaks */
+@media (min-width: 768px) {
+  .logo {
+    max-width: 200px;
+  }
+
+  h1 {
+    font-size: 2.75rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+
+  .cta {
+    font-size: 1.1rem;
+  }
+}
+
 main {
   padding: 2em 1.5em;
   max-width: 800px;
